@@ -1,1 +1,1 @@
-# Israels-Car-price-predictor-Telegramm-Bot
+# Israels-Car-price-predictor
