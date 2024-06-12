@@ -79,6 +79,7 @@ Other popular brands include Skoda, Nissan, and Mazda.
 The Toyota Corolla is the most popular model, followed by Kia Sportage and Kia Picanto.
 Other popular models include Nissan Qashqai, Skoda Octavia, and Mazda 3.
 Visualizations Overview
+
 The visualizations depict various facets of the car market:
 
 - A bar chart showing the number of cars by country.
