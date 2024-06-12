@@ -42,9 +42,42 @@ The modeling process involves training different regression models to predict ca
 - Input: yad2_cars_cleaned.csv
 - Output: Trained models and evaluation metrics
 
-## Evaluation
-The models are evaluated using metrics such as R2 Score, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). These metrics help in understanding the performance of the models.
+Details:
 
+Model: LinearRegression
+
+- R2 Score: 0.784
+
+- Mean Squared Error (MSE): 3027346790.54
+
+- Root Mean Squared Error (RMSE): 55021.33
+----------------------------------------
+Model: DecisionTreeRegressor
+- R2 Score: 0.716
+- Mean Squared Error (MSE): 3977952725.53
+- Root Mean Squared Error (RMSE): 63071.01
+----------------------------------------
+
+Model: RandomForestRegressor
+- R2 Score: 0.799
+- Mean Squared Error (MSE): 2811850379.64
+- Root Mean Squared Error (RMSE): 53026.88
+----------------------------------------
+
+Model: SVR
+- R2 Score: -0.039
+- Mean Squared Error (MSE): 14540602518.06
+- Root Mean Squared Error (RMSE): 120584.42
+----------------------------------------
+
+Model: XGBRegressor
+- R2 Score: 0.85
+- Mean Squared Error (MSE): 2079799872.01
+- Root Mean Squared Error (RMSE): 45604.82
+----------------------------------------
+
+## Evaluation
+The models are evaluated using metrics such as R2 Score, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). These metrics help in understanding the performance of the models. XGBRegressor was chosen.
 ## Data Visualization
 Check file in Visualizations directory.
 
