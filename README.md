@@ -46,8 +46,49 @@ The modeling process involves training different regression models to predict ca
 The models are evaluated using metrics such as R2 Score, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). These metrics help in understanding the performance of the models.
 
 ## Data Visualization
-Check file in Visualizations directory
+Check file in Visualizations directory.
 
+
+Insights from Car Price Data Visualization
+The data visualizations provide several insights into the car market, specifically focusing on various aspects such as the number of cars by country, production years, fuel type distribution, and price ranges. Here are some key insights:
+
+1. Car Distribution by Country
+Japan has the highest number of cars, followed by South Korea and Germany.
+Other notable countries include France, United States, and Czech Republic.
+China and Romania have the least number of cars in the dataset.
+2. Car Production Years
+There is a noticeable increase in the number of car models produced starting from the mid-2000s.
+The peak production years are between 2015 and 2020, with a slight decrease observed after 2020.
+3. Fuel Type Distribution
+Petrol cars dominate the dataset.
+Diesel and hybrid cars are also significant, but much less compared to petrol.
+Electric cars represent the smallest segment.
+4. Car Pricing
+The average price of cars listed on yad2 is approximately 84.60K.
+There are 14.94K cars in the dataset from 63 unique brands.
+5. Top 10 Expensive Car Brands
+McLaren, Lamborghini, and Ferrari are the top three most expensive car brands by average price.
+Other high-priced brands include Hummer, Aston Martin, and Bentley.
+6. Top 10 Cheapest Car Brands
+Lancia, Great Wall, and GMC are among the cheapest car brands by average price.
+Other affordable brands include Daihatsu, Buick, and Opel.
+7. Most Popular Car Brands in Israel
+Hyundai is the most popular brand, followed by Toyota and Kia.
+Other popular brands include Skoda, Nissan, and Mazda.
+8. Most Popular Car Models in Israel
+The Toyota Corolla is the most popular model, followed by Kia Sportage and Kia Picanto.
+Other popular models include Nissan Qashqai, Skoda Octavia, and Mazda 3.
+Visualizations Overview
+The visualizations depict various facets of the car market:
+
+- A bar chart showing the number of cars by country.
+- A bar chart illustrating the number of car models by production year.
+- A treemap showcasing the distribution of cars by fuel type.
+- Summary statistics displaying the average price, total number of cars, and unique brands.
+- Bar charts for the top 10 most expensive and cheapest car brands.
+- Bar charts for the top 10 most popular car brands and models in Israel.
+
+These visualizations provide a comprehensive overview of the car market, highlighting key trends and patterns in car production, pricing, and popularity. They can assist in making informed decisions regarding car purchases, marketing strategies, and understanding market dynamics.
 ## Technologies Used
 - Python: Core programming language
 - BeautifulSoup & Selenium: For web scraping
